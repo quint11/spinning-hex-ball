@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouncing Ball in Spinning Hexagon</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js"></script> -->
+    <script src="sketch.js"></script>
+    <style>
+        body { padding: 0; margin: 0; font-family: sans-serif; }
+        canvas { display: block; margin: 20px auto; border: 1px solid #ccc; }
+        .controls { width: 600px; margin: 10px auto; padding: 10px; border: 1px solid #eee; }
+        .controls div { margin-bottom: 5px; }
+        .controls label { display: inline-block; width: 200px; }
+        .controls span { display: inline-block; width: 50px; text-align: right; margin-left: 10px;}
+        h1 { text-align: center; color: #333; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <h1>旋转六边形中的弹跳球</h1>
+    <div class="controls">
+        <div id="gravity-control">重力 / Gravity</div>
+        <div id="air-friction-control">空气阻力 / Air Friction</div>
+        <div id="elasticity-control">弹性 / Elasticity</div>
+        <div id="bounce-friction-control">碰撞摩擦 / Bounce Friction</div>
+        <div id="rotation-speed-control">旋转速度 / Rotation Speed</div>
+    </div>
+</body>
+</html>
